@@ -7,7 +7,7 @@
   <meta name="description" content="Tart allows you to input a nation's name and the name of their region of residence, then receive an organised list of all nations they have not endorsed as of NationStates' last Major update (21:00-22:30 PST).">
   <meta name="theme-color" content="#0099FF">
   <meta property="og:image" content="./Static/tart.png">
-  <link rel="icon" type="image/x-icon" href="./Static/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
   <link rel="stylesheet" href="https://calref.ca/bulma.css">
   <link rel="stylesheet" href="./Static/tart.css">
   <title>Tart.CalRef</title>
