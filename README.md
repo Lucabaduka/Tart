@@ -1,7 +1,7 @@
-## Tart: Universal Endotarting Utility ![Version 2.0.0](https://img.shields.io/badge/Version-2.0.0-0099ff)
+# Tart: Universal Endorsement Aid ![Version 2.0.0](https://img.shields.io/badge/Version-2.0.0-0099ff)
 
 <div align="center">
-  <img src="https://img.shields.io/badge/-PHP 8-777BB4?logo=php&logoColor=white&style=flat" alt="PHP 8">
+  <img src="https://img.shields.io/badge/-PHP 8-777BB4?logo=php&logoColor=white&style=flat" alt="PHP 8"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=flat" alt="JavaScript">
 </div>
 
 ## Overview

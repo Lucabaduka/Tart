@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
 
         <article class="media has-text-left">
           <figure class="image is-64x64">
-            <a href="/"><img src="./Static/tart.png" alt="logo" aria-label="Return to splash page"></a>
+            <a href="/"><img src="./Static/tart.png" alt="logo" aria-label="Reload the splash page"></a>
           </figure>
           <div class="media-content mb-3">
             <span class="tag is-info">v<?=$version?></span>
@@ -102,7 +102,7 @@
   <footer class="is-flex center">
     <div class="media-footer is-flex">
       <figure class="image depth is-32x32">
-        <a href="https://calref.ca/"><img src="./Static/icon.png"></a>
+        <a href="https://calref.ca/"><img src="./Static/icon.png" alt="CalRef Logo" aria-label="Visit Calamity Refuge"></a>
       </figure>
       <div class="media-content px-1">
         <p class="is-size-6">

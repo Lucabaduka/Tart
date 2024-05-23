@@ -2,7 +2,7 @@
 
 /*
 *
-* Tart: Universal Endotarting Utility
+* Tart: Universal Endorsement Aid
 * Copyright 2024 Luca McGrath, MIT License
 * https://github.com/Lucabaduka/Tart
 *
