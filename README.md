@@ -27,12 +27,25 @@ The second method, is a table of individual button-links which can be more easil
 
 2. If XML is not bundled in your PHP install, you will need to get it for your version number. On Debian/Ubuntu, you can grab this with `sudo apt install php8.3-xml` or whatever version of php you installed.
 
-3. Set up a daily cron job for `tart_processor.php`, such as with Linux' `crontab` utility. NationStates finishes its update around 22:30 Pacific time, but NationStates takes a few minutes to post the new update. Setting the cron job to two and a half hours later means the data will only be old 25% of the time.
+3. Set up a daily cron job for `tart_processor.php`, with a tool such as with Linux' `crontab` utility. NationStates finishes its update around 22:30 Pacific time, but NationStates takes a few minutes to post the new update. Setting the cron job to two and a half hours later means the data will only be old 25% of the time.
 
-4. Set up the Apache config such as with the example  below:
+4. Configure your web server software to Tart's `Public` directory. A sample config for Apache2 includes, but is not limited to, the following:
 
 ```
-Config will go here
+<VirtualHost example.org:80>
+
+        ServerName example.org
+        ServerAdmin beans@example.org
+        DocumentRoot /your/tart/path/Public
+
+        ErrorDocument 404 /index.php/404
+        ErrorDocument 500 /index.php/500
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>
+
 ```
 
 ---
