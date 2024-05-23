@@ -9,8 +9,7 @@
   <meta id="nations_list" data-values="<?=$endos->links()?>">
   <meta property="og:image" content="./Static/tart.png">
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
-  <link rel="stylesheet" href="https://calref.ca/bulma.css">
-  <link rel="stylesheet" href="./Static/tart.css">
+  <link rel="stylesheet" href="./Static/tart-min.css">
   <title>Tart - Sheet for <?=$nation?></title>
 </head>
 <body>

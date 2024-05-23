@@ -8,8 +8,7 @@
   <meta name="theme-color" content="#0099FF">
   <meta property="og:image" content="./Static/tart.png">
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
-  <link rel="stylesheet" href="https://calref.ca/bulma.css">
-  <link rel="stylesheet" href="./Static/tart.css">
+  <link rel="stylesheet" href="./Static/tart-min.css">
   <title>Tart.CalRef</title>
 </head>
 <body>

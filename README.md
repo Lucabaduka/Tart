@@ -13,9 +13,9 @@ Data is collected by the processing of NationStates' daily data dumps; therefore
 
 ## Usage
 
-The splash page is a simple search box, where an operator may input a nation name and its region of residence. If the region is found the database, Tart will output a list of the region's World Assembly members, while dropping any that were previously endorsed by the input nation. This output can be used through two given methods:
+The splash page is a simple search box, where an operator may input a nation name and its region of residence. If the region is found in the database, Tart will output a list of the region's World Assembly members, while dropping any that were previously endorsed by the input nation. This output can be used through two given methods:
 
-The first method is a large blue page-opener button. In some browser, such as Chromium, you can use ctrl+click this button to cycle open all nations, opening them in new tabs. This is the fasest method, especially if the volume of missing endorsements is very high.
+The first method is a large blue page-opener button. In some browsers, such as Chromium, you can use ctrl+click this button to cycle open all nations, opening them in new tabs. This is the fastest method, especially if the volume of missing endorsements is very high.
 
 The second method, is a table of individual button-links which can be more easily opened in all browsers, taking you to the closest anchor with an ID on the target nation page. All button-links turn green after they've been clicked, so the operator does not lose their place.
 
@@ -45,12 +45,12 @@ It should be noted that endotarting is not necessarily desired or permitted by e
 
 ### History
 
-Originally, Tart was a command on the NationStates bot, [Dot](https://calref.ca/dot/#tart_command), released in May 2022. The evolution of Tart as a browser-based utility came as the result of two strong and regretable factors. The first is that a function in a Discord bot is inherently restricted to operators with Discord accounts, limiting how many people can have access to the utility. The second is that some time in September-ish 2022, a well-known browser-based endotarting utility called Endorse the World ceased to function, as its maintainer retired from NationStates.
+Originally, Tart was a command on the NationStates bot, [Dot](https://calref.ca/dot/#tart_command), released in May 2022. The evolution of Tart as a browser-based utility came as the result of two strong and regrettable factors. The first is that a function in a Discord bot is inherently restricted to operators with Discord accounts, limiting how many people can have access to the utility. The second is that some time in September-ish 2022, a well-known browser-based endotarting utility called Endorse the World ceased to function, as its maintainer retired from NationStates.
 
-In order to bridge both of these issues, the `tart` command was recreated as a standalong web utility, released in [November 2022](https://forum.calref.ca/index.php?topic=9.msg3948#msg3948). As a web app, Tart turned out to be a lot easier to add features to and maintain than dealing with Discord's shifting-sands development environment. This resulted in the added operator benefit of having a greater share of uptime than:
+In order to bridge both of these issues, the `tart` command was recreated as a standalone web utility, released in [November 2022](https://forum.calref.ca/index.php?topic=9.msg3948#msg3948). As a web app, Tart turned out to be a lot easier to add features to and maintain than dealing with Discord's shifting-sands development environment. This resulted in the added operator benefit of having a greater share of uptime than:
 - NationStates
 - Discord
 - Steam
 - My bank
 
-Eventually, Dot just redirected it's `tart` command traffic to Tart itself, and dropped most of its own code.
+Eventually, Dot just redirected its `tart` command traffic to Tart itself and dropped most of its own code. Over the course of a week in May 2024, Tart was rewritten in PHP, mostly to prove to myself that I could learn a language that I have never worked in before and spit out something modest in it without any framework.

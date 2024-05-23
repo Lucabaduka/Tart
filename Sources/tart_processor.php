@@ -8,6 +8,10 @@
 *
 */
 
+/* This file collects and processes the NationStates data dump into a json file for Tart to more rapidly scan
+*  It should be operated on a daily cron job, ideally as soon as a new dump can be reliably expected
+*/
+
 // Cleans up any old data dumps
 // Called before and after processing
 // Returns nothing, just like life
@@ -23,7 +27,7 @@ function cleanUp() {
 
 }
 
-// Aquires and unzips a nation data dump
+// Acquires and unzips a nation data dump
 // Called just before processing the dump
 // Returns a path to the XML file
 function aquisition() {
