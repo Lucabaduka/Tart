@@ -106,7 +106,7 @@
       </figure>
       <div class="media-content px-1">
         <p class="is-size-6">
-          <span><a class="gold" href="https://calref.ca/">CalRef</a></span><span> © 2008-2024</span>
+          <span><a class="gold" href="https://calref.ca/">CalRef</a></span><span> © 2008-<?=date("Y")?></span>
           <span> | <a class="gold" href="https://calref.ca/donate">Support Our Servers</a></span>
         </p>
       </div>
