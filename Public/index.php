@@ -37,11 +37,11 @@ if ($nation !== null && $region !== null) {
     }
 
     // Determine what the nation has and hasn't endorsed
-    $missing = getMissing($nation, $df[$region]["nations"]);
+    $endos = new Endos($nation, $df[$region]["nations"]);
     $total = count($df[$region]["nations"]);
 
     // If the length of missing is 0, recognise a perfect cross
-    if (count($missing) === 0) {
+    if (count($endos->missing()) === 0) {
 
       $title    = "Fully Crossed";
       $subtitle = "Bless this full endotart";
