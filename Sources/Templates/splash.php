@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="Endotart, CalRef Network, Calamity Refuge, NationStates endorse"/>
-  <meta name="description" content="Tart allows you to input a nation's name and the name of their region of residence, then receive an organised list of all nations they have not endorsed as of NationStates' last Major update (21:00-22:30 PST).">
+  <meta name="keywords" content="Endotart, NationStates endorse, NationStates endorsement, NationStates influence"/>
+  <meta name="description" content="Tart.CalRef is a fast and easy web utility to help you endorse Word Assembly members in your region.">
   <meta name="theme-color" content="#0099FF">
   <meta property="og:image" content="./Static/tart.png">
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
@@ -42,8 +42,8 @@
           Endotarting is when a World Assembly nation endorses every other World Assembly nation in their region. I'ts the
           fastest way to get endorsed back, and a great way to increase everyone's influence. You can use this site to input
           your nation and region, then get a list of everyone you haven't endorsed as of the last databse update. The database
-          updates daily at 01:00 PDT. The data could be up to one day old if NationStates did not have any new data for us by
-          then.
+          updates every day at midnight; however, data could be up to one day old if NationStates was tardy in processing its
+          update.
         </p>
 
         <!-- Operator Input -->
