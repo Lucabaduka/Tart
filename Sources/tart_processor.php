@@ -8,9 +8,18 @@
 *
 */
 
-/* This file collects and processes the NationStates data dump into a json file for Tart to more rapidly scan
-*  It should be operated on a daily cron job, ideally as soon as a new dump can be reliably expected
-*/
+/* This file collects and processes the NationStates data dump into a json file for Tart to use */
+
+#######################################
+# ---   V    Configuration   V    --- #
+#######################################
+
+// This should be the operator's main NationStates nation or email address.
+$agent = "Default";
+
+#######################################
+# --- Do not edit below this line --- #
+#######################################
 
 // Cleans up any old data dumps
 // Called before and after processing
@@ -36,13 +45,15 @@ function aquisition() {
   cleanup();
 
   // Get set up for our end
+  global $agent;
   $url = "https://www.nationstates.net/pages/nations.xml.gz";
   $name = dirname(__DIR__, 1) . "/Sources/Record/nations.xml.gz";
   $archive = str_replace(".gz", "", $name);
 
   // Get set for their end
-  $options  = array("http" => array("User-Agent" => "Refuge Isle, Testing Tart v2.0.0"));
-  $context  = stream_context_create($options);
+  if ($agent === "Default") die("You must set a user-agent to proceed.");
+    $options  = array("http" => array("User-Agent" => "$agent, Running Tart v2.0.0"));
+    $context  = stream_context_create($options);
 
   // Pull the dump
   file_put_contents($name, file_get_contents($url, false, $context));
