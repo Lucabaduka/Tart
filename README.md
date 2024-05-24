@@ -56,6 +56,8 @@ I am a NationStates staff member; therefore, I am required to provide a disclaim
 
 It should be noted that endotarting is not necessarily desired or permitted by every region, and Tart cannot observe local endorsement caps or other regional policy. It is up to the operator to understand the rules and practices of their respective realms.
 
+Tart uses a Bulma v0.9.4 CSS framework in a minified file compiled from `tart.css`, Tart theme colours, and CalRef's local copy of Bulma 0.9.4.
+
 ### History
 
 Originally, Tart was a command on the NationStates bot, [Dot](https://calref.ca/dot/#tart_command), released in May 2022. The evolution of Tart as a browser-based utility came as the result of two strong and regrettable factors. The first is that a function in a Discord bot is inherently restricted to operators with Discord accounts, limiting how many people can have access to the utility. The second is that some time in September-ish 2022, a well-known browser-based endotarting utility called Endorse the World ceased to function, as its maintainer retired from NationStates.
