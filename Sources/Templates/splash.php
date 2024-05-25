@@ -39,11 +39,10 @@
         <hr>
 
         <p class="space">
-          Endotarting is when a World Assembly nation endorses every other World Assembly nation in their region. I'ts the
-          fastest way to get endorsed back, and a great way to increase everyone's influence. You can use this site to input
-          your nation and region, then get a list of everyone you haven't endorsed as of the last databse update. The database
-          updates every day at midnight; however, data could be up to one day old if NationStates was tardy in processing its
-          update.
+          This site is a utility to help you endorse other World Assembly regions within your region on
+          <a href="https://www.nationstates.net/">NationStates.net</a>. This process is called "endotarting", and it's the fastest
+          way to gain endorsements, yourself, as well as build influence. You can use the controls below to input your nation and
+          region to get a list of everyone you haven't endorsed as of the last daily database update.
         </p>
 
         <!-- Operator Input -->
