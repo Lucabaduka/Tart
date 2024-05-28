@@ -29,7 +29,7 @@
               Tart.CalRef
             </h1>
             <h2 class="subtitle space is-flex">
-              Universal Endorsement Aid
+              NationStates Endorsement Aid
             </h2>
           </div>
         </article>
@@ -39,7 +39,7 @@
         <hr>
 
         <p class="space">
-          This site is a utility to help you endorse other World Assembly regions within your region on
+          This site is a utility to help you endorse all other World Assembly regions within your region on
           <a href="https://www.nationstates.net/">NationStates.net</a>. This process is called "endotarting", and it's the fastest
           way to gain endorsements, yourself, as well as build influence. You can use the controls below to input your nation and
           region to get a list of everyone you haven't endorsed as of the last daily database update.
