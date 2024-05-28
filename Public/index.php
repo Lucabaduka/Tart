@@ -66,9 +66,9 @@ if ($nation !== null && $region !== null) {
     $text     = "The region you entered ( <span class=\"code\"><a href=\"https://www.nationstates.net/region={$region}\">{$region}</a></span>
     ) either does not exist or no World Assembly nations lived there at the last update.<br><br>
 
-    If you mis-typed, you can use a region's full name or paste it's URL into the region bar and try again. If the region was just founded, you have to
-    wait for NationStates' Major update to pass over it, and then wait for Nightly to process that data. Assuming there are any World Assembly nations
-    to provide you with, the new data will be available here <b>{estimate}</b>.";
+    If you mis-typed, you can use a region's full name or paste it's URL into the region bar and try again. If the region was just
+    founded, you will have to wait for NationStates' Major update to pass over it, and then Tart to process that data around
+    midnight Pacific Time. A new update should occur <b>{$time->estimate()}</b>.";
 
     include "../Sources/Templates/page.php";
 
