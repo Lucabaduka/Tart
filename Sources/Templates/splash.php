@@ -15,7 +15,7 @@
 
 <div class="hero is-fullheight">
 
-  <main class="hero-body">
+  <main class="hero-body px-2">
     <div class="container outline">
       <div class="subbox">
 

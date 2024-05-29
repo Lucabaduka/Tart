@@ -38,11 +38,12 @@ body {
 
 a {
   color: #00f8ff;
-  cursor: pointer;
-  text-decoration: none;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 a:hover {
-  font-style: italic;
   color: #ecc906;
 }
 footer {
@@ -54,11 +55,11 @@ footer {
   box-shadow: 0 -1px 2px #b1b1b10f
 }
 hr {
-  background-color: #09F;
   border: none;
   display: block;
   height: 1px;
-  margin: 0;
+  margin: 0.5rem 0 0.7rem;
+  background: linear-gradient(270deg, #7B68EE 0%, #09F 100%);
 }
 input[type=number] {
   -moz-appearance: textfield;
@@ -181,6 +182,10 @@ p.btext {
   background-color: #0224644f;
   border-color: #09F;
   color: #fff;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .button.search {
   left: 3px;
@@ -267,6 +272,6 @@ p.btext {
 }
 .tag:not(body).is-info {
   background-color: #09F;
-  color: #fff;
+  color: #000;
   float: right;
 }
