@@ -46,7 +46,7 @@ class TimeLord {
   // Returns a string estimating the database update in plain English
   public function estimate() {
 
-    $remaining = (time() - 86400) - ($this->unix - (7*3600));
+    $remaining = (time() - $this->unix) + 86400;
     if ($remaining > 3600) {
       $num = intval($remaining/3600);
       $estimate = "in about $num hours";
