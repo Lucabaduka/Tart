@@ -58,6 +58,8 @@ class TimeLord {
     }
     return $estimate;
   }
+
+  public function __destruct() {}
 }
 
 // Removes illegal characters and transforms to lower case
@@ -100,6 +102,8 @@ class Endos {
   public function missing() {
       return array_filter(explode(",", $this->main()));
   }
+
+  public function __destruct() {}
 }
 
 ?>
