@@ -70,16 +70,16 @@
             <div class="navbar-start center is-fullwidth">
               <form action="/index.php" method="GET" class="search-box">
                 <input type="submit" id="search" class="button search center is-info" value="Search">
-                <input class="input bar" name="nation" id="nation" placeholder="Enter a nation" type="text" required="">
+                <input class="input bar" name="nation" id="nation" placeholder="Nation" type="text" required="">
                 <label for="nation" class="ada">Enter a nation</label>
-                <input class="input" name="region" id="region" placeholder="Enter its region" type="text" required="">
+                <input class="input" name="region" id="region" placeholder="Region" type="text" required="">
                 <label for="region" class="ada">Enter its region</label>
               </form>
             </div>
           </nav>
 
       </div>
-      <p class="content is-small gold ml-4">
+      <p class="content is-small gold depth ml-4">
         <i>Last Update: <?=$time->Stamp()?></i>
       </p>
 
