@@ -15,13 +15,32 @@
 
 <div class="hero is-fullheight">
 
+<header class="mask mslim">
+    <nav class="navbar is-flex">
+      <div class="navbar-brand is-flex-grow-2">
+          <a href="https://calref.ca/" class="navbar-item depth glowm">
+              <img height="48" width="48" src="./Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge">
+              CalRef
+          </a>
+      </div>
+
+      <div class="navbar-menu is-flex-grow-1">
+        <div class="navbar-end">
+          <a href="https://calref.ca/dot/" class="navbar-item depth"><i class="ico ico-dot"></i>Dot</a>
+          <a href="https://eyebeast.calref.ca/" class="navbar-item depth"><i class="ico ico-eyebeast"></i>Eyebeast</a>
+          <a href="https://tart.calref.ca/" class="navbar-item depth"><i class="ico ico-tart"></i>Tart.CalRef</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <main class="hero-body px-2">
     <div class="container outline">
       <div class="subbox">
 
         <article class="media has-text-left">
           <figure class="image is-64x64">
-            <a href="/"><img src="./Static/tart.png" alt="logo" aria-label="Reload the splash page"></a>
+            <a href="/"><img src="./Static/tart_logo.svg" alt="logo" aria-label="Reload the splash page"></a>
           </figure>
           <div class="media-content mb-3">
             <span class="tag is-info">v<?=$version?></span>
@@ -49,16 +68,12 @@
 
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-start center is-fullwidth">
-              <form action="/index.php" class="search-box" method="GET">
+              <form action="/index.php" method="GET" class="search-box">
                 <input type="submit" id="search" class="button search center is-info" value="Search">
-                <div>
-                  <input class="input bar" name="nation" id="nation" type="text" required>
-                  <label for="nation">Enter a nation</label>
-                </div>
-                <div class="pl-1">
-                  <input class="input" name="region" id="region" type="text" required>
-                  <label for="region">Enter its region</label>
-                </div>
+                <input class="input bar" name="nation" id="nation" placeholder="Enter a nation" type="text" required="">
+                <label for="nation" class="ada">Enter a nation</label>
+                <input class="input" name="region" id="region" placeholder="Enter its region" type="text" required="">
+                <label for="region" class="ada">Enter its region</label>
               </form>
             </div>
           </nav>
@@ -100,7 +115,7 @@
   <footer class="is-flex center">
     <div class="media-footer is-flex">
       <figure class="image depth is-32x32">
-        <a href="https://calref.ca/"><img src="./Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge"></a>
+        <a href="https://calref.ca/"><img height="32" width="32" src="./Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge"></a>
       </figure>
         <p class="media-content is-size-6 px-1">
           <span><a class="gold" href="https://calref.ca/">CalRef</a></span><span> © 2008-<?=date("Y")?></span>
