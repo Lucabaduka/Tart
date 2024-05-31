@@ -4,7 +4,7 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
-User-agen: PetalBot
+User-agent: PetalBot
 Disallow: /
 
 User-agent: Amazonbot
