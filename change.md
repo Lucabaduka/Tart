@@ -1,5 +1,13 @@
 ## Tart Changelog
 
+#### May 30 3034 - `2.0.2`
+- Added clouds background.
+- Added links to other NS services in the persistent nav bar.
+- Fixed possible memory leakage.
+- Reduction in boilerplate js.
+- Nicer animation effects for the delegate button.
+- Logos and images are all SVGs.
+
 #### May 29 2024 - `2.0.1`
 - Fixed the time estimate for new nation data.
 - CSS improvements, such as hipster mouseover animation.
