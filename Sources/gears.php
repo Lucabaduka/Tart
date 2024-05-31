@@ -69,6 +69,7 @@ function cleanName($string) {
   $string = str_replace("https://www.nationstates.net/nation=", "", $string);
   $string = str_replace("https://www.nationstates.net/region=", "", $string);
   $string = str_replace("_", " ", $string);
+  $string = trim($string, " ");
   return strtolower(preg_replace("/[^a-z A-Z 0-9-_]/", "", $string));
 }
 

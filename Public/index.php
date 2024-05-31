@@ -63,8 +63,8 @@ if ($nation !== null && $region !== null) {
 
     $title    = "No Record Found";
     $subtitle = "World Assembly nations in this region are unknown";
-    $text     = "The region you entered ( <span class=\"code\"><a href=\"https://www.nationstates.net/region={$region}\">{$region}</a></span>
-    ) either does not exist or no World Assembly nations lived there at the last update.<br><br>
+    $text     = "The region you entered (<span class=\"code\"><a href=\"https://www.nationstates.net/region={$region}\">{$region}</a></span>)
+    either does not exist or no World Assembly nations lived there at the last update.<br><br>
 
     If you mis-typed, you can use a region's full name or paste it's URL into the region bar and try again. If the region was just
     founded, you will have to wait for NationStates' Major update to pass over it, and then Tart to process that data around
