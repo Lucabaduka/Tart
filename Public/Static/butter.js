@@ -1,7 +1,6 @@
-// Tart link opener function
 // Grabs data from the header on page load
-// Function called whenever the operator presses the feeder button
-
+// Called whenever the operator presses the feeder button
+// Adjusts the link and label to the next in the list by counter
 const ele = document.getElementById('nations_list');
 let links = ele.getAttribute('data-values').split(',');
 var LinkIndex = 0;
@@ -24,4 +23,12 @@ function feeder() {
         LinkIndex++;
     }
 
+}
+
+// Turns things green when clicked by toggling the okay class
+// If it's already there, we don't want to turn it off again
+function okay(e) {
+    if (!e.classList.contains("okay")) {
+        e.classList.toggle("okay");
+    }
 }

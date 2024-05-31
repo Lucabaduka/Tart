@@ -16,7 +16,7 @@
 
 <div class="hero is-fullheight">
 
-  <!-- Permanent Search Bar -->
+  <!-- Nav Bar -->
 
   <header class="mask">
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -99,7 +99,7 @@
                   if (in_array($delegate, $endos->missing())):
 
               ?>
-              <a class="button stack" href="https://www.nationstates.net/nation=<?=cleanName($delegate)?>#composebutton" onclick="this.style.backgroundColor = '#0264084f'; this.style.borderColor = '#00FFAB';">
+              <a class="button stack" href="https://www.nationstates.net/nation=<?=cleanName($delegate)?>#composebutton" onclick="okay(this);">
                 <p class="is-size-4">
                   <b><?=$delegate?></b><br>
                   Endorse the Delegate!
@@ -138,8 +138,8 @@
 
           ?>
             <div class="column is-one-fifth">
-              <a class="button is-medium is-info is-fullwidth" href="https://www.nationstates.net/nation=<?=cleanName($link)?>#composebutton" onclick="this.style.backgroundColor = '#0264084f'; this.style.borderColor = '#00FFAB';">
-                <p class="btext"><?=$link?></p>
+              <a class="button is-medium is-info is-fullwidth" href="https://www.nationstates.net/nation=<?=cleanName($link)?>#composebutton" onclick="okay(this);">
+                <?=$link?>
               </a>
           </div>
           <?php
