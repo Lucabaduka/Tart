@@ -29,9 +29,9 @@
 
       <form action="/index.php" method="GET" class="search-box is-flex-grow-2">
         <input type="submit" id="search" class="button search center is-info" value="Search">
-        <input class="input bar" name="nation" id="nation" placeholder="Nation" type="text" required="">
+        <input class="input bar" name="nation" id="nation" placeholder="Nation" type="text" required>
         <label for="nation" class="ada">Enter a nation</label>
-        <input class="input" name="region" id="region" placeholder="Region" type="text" required="">
+        <input class="input" name="region" id="region" placeholder="Region" type="text" required>
         <label for="region" class="ada">Enter its region</label>
       </form>
 
