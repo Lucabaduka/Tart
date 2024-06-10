@@ -6,9 +6,9 @@
   <meta name="keywords" content="Endotart, NationStates endorse, NationStates endorsement, NationStates influence"/>
   <meta name="description" content="Tart.CalRef is a fast and easy web utility to help you endorse Word Assembly members in your region.">
   <meta name="theme-color" content="#0099FF">
-  <meta property="og:image" content="./Static/tart.png">
-  <link rel="icon" type="image/x-icon" href="./favicon.ico">
-  <link rel="stylesheet" href="./Static/tart-min.css">
+  <meta property="og:image" content="/Static/tart.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/Static/tart-min.css">
   <title>Tart.CalRef</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
     <nav class="navbar is-flex">
       <div class="navbar-brand is-flex-grow-2">
           <a href="https://calref.ca/" class="navbar-item depth glowm">
-              <img height="48" width="48" src="./Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge">
+              <img height="48" width="48" src="/Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge">
               CalRef
           </a>
       </div>
@@ -40,7 +40,7 @@
 
         <article class="media has-text-left">
           <figure class="image is-64x64">
-            <a href="/"><img src="./Static/tart_logo.svg" alt="logo" aria-label="Reload the splash page"></a>
+            <a href="/"><img src="/Static/tart_logo.svg" alt="logo" aria-label="Reload the splash page"></a>
           </figure>
           <div class="media-content mb-3">
             <span class="tag is-info">v<?=$version?></span>
@@ -115,7 +115,7 @@
   <footer class="is-flex center">
     <div class="media-footer is-flex">
       <figure class="image depth is-32x32">
-        <a href="https://calref.ca/"><img height="32" width="32" src="./Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge"></a>
+        <a href="https://calref.ca/"><img height="32" width="32" src="/Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge"></a>
       </figure>
         <p class="media-content is-size-6 px-1">
           <span><a class="gold" href="https://calref.ca/">CalRef</a></span><span> © 2008-<?=date("Y")?></span>
