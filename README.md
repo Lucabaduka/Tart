@@ -1,4 +1,4 @@
-# Tart: Universal Endorsement Aid ![Version 2.0.2](https://img.shields.io/badge/Version-2.0.2-0099ff)
+# Tart: Universal Endorsement Aid ![Version 2.0.3](https://img.shields.io/badge/Version-2.0.3-0099ff)
 
 <div align="center">
   <img src="https://img.shields.io/badge/-PHP 8-777BB4?logo=php&logoColor=white&style=flat" alt="PHP 8"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=flat" alt="JavaScript">
@@ -38,8 +38,8 @@ The second method, is a table of individual button-links which can be more easil
         ServerAdmin beans@example.org
         DocumentRoot /your/tart/path/Public
 
-        ErrorDocument 404 /index.php/404
-        ErrorDocument 500 /index.php/500
+        ErrorDocument 404 /404.php
+        ErrorDocument 500 /500.php
 
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined

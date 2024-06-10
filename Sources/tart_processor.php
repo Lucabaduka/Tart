@@ -52,7 +52,7 @@ function aquisition() {
 
   // Get set for their end
   if ($agent === "Default") die("You must set a user-agent to proceed.");
-  $options  = array("http" => array("User-Agent" => "$agent, Running Tart v2.0.0"));
+  $options  = array("http" => array("User-Agent" => "$agent, Running Tart v2.0.3"));
   $context  = stream_context_create($options);
 
   // Pull the dump
