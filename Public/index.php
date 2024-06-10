@@ -8,8 +8,8 @@
 *
 */
 
-$version = "2.0.2";
-require_once("../Sources/gears.php");
+$version = "2.0.3";
+require_once "../Sources/gears.php";
 
 // These variables are almost universal, so make sure we always have them
 $time = new TimeLord(filemtime("../Sources/Record/tart.json"));
@@ -73,25 +73,6 @@ if ($nation !== null && $region !== null) {
     include "../Sources/Templates/page.php";
 
   }
-
-  // Return a basic 404 if Apache asks
-} elseif ($_SERVER['REQUEST_URI'] == "/404") {
-
-  $title    = "404: Not Found";
-  $subtitle = "Region is unknown or cannot be known";
-  $text     = "No page that fit your request was found within the database, or whatever
-               resource you were sent to retrieve here no longer exists.";
-
-  include "../Sources/Templates/page.php";
-
-  // Return a basic 500 if Apache asks
-} elseif ($_SERVER['REQUEST_URI'] == "/500") {
-  $title    = "500: Internal Server Error";
-  $subtitle = "The server's brain has exploded";
-  $text     = "Something about your last interaction triggered a fault in the Tart software or in the server's
-               configuration. If it keeps happening, feel free to report it to Refuge administration.";
-
-  include "../Sources/Templates/page.php";
 
   // Direct everyone else to the splash page
 } else {
