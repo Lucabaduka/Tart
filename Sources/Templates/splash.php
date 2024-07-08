@@ -61,7 +61,7 @@
           Tart is a free <a href="https://github.com/Lucabaduka/Tart">open-source</a> utility to help you endorse other World
           Assembly members in your region on <a href="https://www.nationstates.net/">NationStates.net</a>. Endorsing all members
           in a region is called "endotarting", and it's the fastest way to gain endorsements and generate influence, yourself.
-          You can use the input below to get a list of member you haven't endorsed as of the last daily database update.
+          You can use the input below to get a list of members you haven't endorsed as of the last daily database update.
         </p>
 
         <!-- Operator Input -->
@@ -88,19 +88,19 @@
       <details class="subbox">
         <summary class="is-size-4 blue">Why Endorsements Matter<hr class="mt-2"></summary>
         <p class="space">
-          For most regions, the influence stat is a great boon. In addition to providing you another potential gold 1% census
-          badge, it's also a vital component of regional security. When a region loses its Governor, the region's World Assembly
-          Delegate gains executive authority over the region and is able to control almost all aspects of its administration.
-          Since the Delegate is whichever nation has the most endorsements, a region can become hijacked by a coordinated group
-          of nations aiming to take over the region with little to no notice. In these takeovers, it is possible for invaders
-          to destroy the region and all of its posts and history.
+          The influence stat is a great boon! In addition to being a possible 1% census badge, it's a vital component of regional
+          security. When a region loses its Governor, the region's World Assembly Delegate gains executive authority, and is able
+          to control almost all aspects of regional administration. Since the Delegate is whichever nation has the most
+          endorsements, a region can become hijacked by a coordinated group of nations aiming to take over with little to no
+          notice. In these takeovers, it is possible for invaders to empty the region of nations, causing the region to be deleted
+          and destroying its posts, images, and history.
         </p>
         <p class="space">
           One saving grace is that while a Governor may ban nations for free, an invader must spend influence. For Delegates,
           the cost is half the influence of the nation they wish to ban. Therefore, the more influence a nation has, the harder
-          it becomes to ban them. The earlier nations in a region collectively start to build influence, the safer they and their
-          region will be. This technique of mutual protection is called an Influence Fortress, and is one of the best methods of
-          ensuring that your region is never destroyed by invaders.
+          it becomes to ban them. Nations receive one influence point twice a day for each endorsement they have; therefore, the
+          earlier nations collectively start to build influence, the safer everyone will be. This technique of mutual protection
+          is called an Influence Fortress, one of the best methods of ensuring that your region is never destroyed by invaders.
         </p>
         <p class="space">
           Be aware that some regions have limits on how many endorsements a nation can legally have. You may wish to check if
