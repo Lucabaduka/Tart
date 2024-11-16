@@ -204,6 +204,9 @@ p.btext {
   text-overflow: ellipsis;
   font-size: 1em;
 }
+.wrap {
+  white-space: wrap;
+}
 
 /* Button Classes */
 

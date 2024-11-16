@@ -44,10 +44,10 @@
           </figure>
           <div class="media-content mb-3">
             <span class="tag is-info">v<?=$version?></span>
-            <h1 class="title is-flex blue space">
+            <h1 class="title blue space">
               Tart.CalRef
             </h1>
-            <h2 class="subtitle space is-flex">
+            <h2 class="subtitle space">
               NationStates Endorsement Aid
             </h2>
           </div>

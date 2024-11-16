@@ -68,7 +68,7 @@
             </div>
 
             <div class="column is-one-third">
-              <a class="button tall is-block is-info is-large" href="#feeder" id="feeder" onclick="feeder()"><p>Assisted Link Opener</p>
+              <a class="button tall is-block is-info is-large wrap" href="#feeder" id="feeder" onclick="feeder()"><p>Assisted Link Opener</p>
               <p>Remaining: <?=count($endos->missing())?></p>
               </a>
             </div>
@@ -82,7 +82,7 @@
                   if (in_array($delegate, $endos->missing())):
 
               ?>
-              <a class="button stack" href="https://www.nationstates.net/nation=<?=cleanName($delegate)?>#composebutton" onclick="okay(this);">
+              <a class="button stack wrap" href="https://www.nationstates.net/nation=<?=cleanName($delegate)?>#composebutton" onclick="okay(this);">
                 <p class="is-size-4">
                   <b><?=$delegate?></b><br>
                   Endorse the Delegate!
