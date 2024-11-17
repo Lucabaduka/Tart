@@ -1,6 +1,13 @@
 ## Tart Changelog
 
-#### May 30 3034 - `2.0.2`
+#### Nov 16 2024 - `2.0.4`
+- Fixing overflow issues for mobile users with auto-feeder, delegate button, and search inputs.
+
+#### Jun 10 2024 - `2.0.3`
+- Proper handling of error pages.
+- Nav and footer moved to independent templates.
+
+#### May 30 2024 - `2.0.2`
 - Added clouds background.
 - Added links to other NS services in the persistent nav bar.
 - Fixed possible memory leakage.

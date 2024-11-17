@@ -10,6 +10,10 @@
   .mslim {
     display: none;
   }
+  .navbar-item.depth.glowm {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .mflex {
@@ -118,8 +122,6 @@ pre, .content pre {
 .media-content {
   flex-basis: auto;
   flex-grow: 1;
-  flex-shrink: 1;
-  text-align: left;
   margin-top: 5px;
 }
 .outline {
@@ -271,22 +273,27 @@ p.btext {
 .input::placeholder {
   color: #0000009e;
 }
+.input {
+  margin-right: 5px;
+}
 .input.bar {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
 .search-box {
-  padding: 10px;
   display: flex;
   min-width: 60%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Misc Classes */
 
 .ada {
   height: 0;
-  width: 5px;
+  width: 0;
   visibility: hidden;
+  position:absolute;
 
 }
 .data-display {
@@ -319,6 +326,15 @@ p.btext {
   background-size: contain;
   margin-right: 0.3rem;
 }
+.ico-eyebeast::after {
+  content: '';
+  display: block;
+  height: 1.5em;
+  width: 1.5em;
+  background-image: url("eyebeast.svg");
+  background-size: contain;
+  margin-right: 0.3rem;
+}
 .ico-tart::after {
   content: '';
   display: block;
@@ -328,12 +344,12 @@ p.btext {
   background-size: contain;
   margin-right: 0.3rem;
 }
-.ico-eyebeast::after {
+.ico-search::after {
   content: '';
   display: block;
   height: 1.5em;
   width: 1.5em;
-  background-image: url("eyebeast.svg");
+  background-image: url("search.svg");
   background-size: contain;
   margin-right: 0.3rem;
 }

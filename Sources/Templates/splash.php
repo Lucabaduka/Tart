@@ -69,7 +69,7 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-start center is-fullwidth">
               <form action="/index.php" method="GET" class="search-box">
-                <input type="submit" id="search" class="button search center is-info" value="Search">
+                <button type="submit" id="search" class="button search center is-info ico-search"></button>
                 <input class="input bar" name="nation" id="nation" placeholder="Nation" type="text" required="">
                 <label for="nation" class="ada">Enter a nation</label>
                 <input class="input" name="region" id="region" placeholder="Region" type="text" required="">
