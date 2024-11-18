@@ -223,6 +223,8 @@ p.btext {
 }
 .button.search {
   left: 3px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .button:hover:not(:disabled) {
   background-color: #0099FF;
