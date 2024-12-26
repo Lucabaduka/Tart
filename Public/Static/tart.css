@@ -180,9 +180,8 @@ pre, .content pre {
 }
 .navbar-item, .navbar-link {
   color: #FFFFFF;
-  padding-right: 1em;
-  padding-left: 1em;
   font-size: 1.1em;
+  padding: .5em 1em .25em 1em;
 }
 .navbar-item img {
   max-height: fit-content;
@@ -319,39 +318,36 @@ p.btext {
 
 /* SVG Icons */
 
-.ico-dot::after {
+.ico {
+  font-family: boxicons !important;
+  font-size: 16pt;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: inherit;
+  display: inline-block;
+  text-transform: none;
+}
+.ico-dot::after, .ico-tart::after, .ico-eyebeast::after, .ico-search::after, .ico-rmm::after {
   content: '';
   display: block;
   height: 1.5em;
   width: 1.5em;
-  background-image: url("dot.svg");
   background-size: contain;
   margin-right: 0.3rem;
 }
-.ico-eyebeast::after {
-  content: '';
-  display: block;
-  height: 1.5em;
-  width: 1.5em;
-  background-image: url("eyebeast.svg");
-  background-size: contain;
-  margin-right: 0.3rem;
+.ico-dot::after {
+  background-image: url("dot.svg");
 }
 .ico-tart::after {
-  content: '';
-  display: block;
-  height: 1.5em;
-  width: 1.5em;
   background-image: url("tart.svg");
-  background-size: contain;
-  margin-right: 0.3rem;
+}
+.ico-eyebeast::after {
+  background-image: url("eyebeast.svg");
 }
 .ico-search::after {
-  content: '';
-  display: block;
-  height: 1.5em;
-  width: 1.5em;
   background-image: url("search.svg");
-  background-size: contain;
-  margin-right: 0.3rem;
+}
+.ico-rmm::after {
+  background-image: url("rmm.svg");
 }

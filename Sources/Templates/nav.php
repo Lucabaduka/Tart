@@ -2,7 +2,7 @@
   <nav class="navbar is-flex">
     <div class="navbar-brand is-flex-grow-1">
         <a href="https://calref.ca/" class="navbar-item depth glowm">
-            <img height="48" width="48" src="/Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge">
+            <img height="36" width="36" src="/Static/icon.svg" alt="CalRef Logo" aria-label="Visit Calamity Refuge">
             <span class="mslim">CalRef</span>
         </a>
     </div>
@@ -20,6 +20,7 @@
         <a href="https://calref.ca/dot/" class="navbar-item depth"><i class="ico ico-dot"></i>Dot</a>
         <a href="https://eyebeast.calref.ca/" class="navbar-item depth"><i class="ico ico-eyebeast"></i>Eyebeast</a>
         <a href="https://tart.calref.ca/" class="navbar-item depth"><i class="ico ico-tart"></i>Tart.CalRef</a>
+        <a href="https://rmm.calref.ca/" class="navbar-item depth"><i class="ico ico-rmm"></i>RMM</a>
       </div>
     </div>
   </nav>
