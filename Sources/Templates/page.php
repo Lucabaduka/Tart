@@ -28,14 +28,14 @@
           <figure class="image is-64x64">
             <a href="/"><img src="/Static/tart_logo.svg" alt="logo" aria-label="Return to splash page"></a>
           </figure>
-        <div class="media-content mb-3">
-          <h1 class="title is-flex blue space">
-            <?=$title?>
-          </h1>
-          <h2 class="subtitle space is-flex">
-          <?=$subtitle?>
-          </h2>
-        </div>
+          <div class="media-content mb-3">
+            <h1 class="title is-flex blue space">
+              <?=$title?>
+            </h1>
+            <h2 class="subtitle space is-flex">
+              <?=$subtitle?>
+            </h2>
+          </div>
         </article>
 
         <hr>
