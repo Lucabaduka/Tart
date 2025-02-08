@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="Endotart, NationStates endorse, NationStates endorsement, NationStates influence"/>
-  <meta name="description" content="Tart.CalRef is a fast and easy web utility to help you endorse Word Assembly members in your region.">
+  <meta name="description" content="Tart.CalRef is a fast and easy web utility to help you endorse World Assembly members in your region.">
   <meta name="theme-color" content="#0099FF">
   <meta property="og:image" content="/Static/tart.png">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
