@@ -1,5 +1,8 @@
 ## Tart Changelog
 
+### Feb 24 2025 - `2.0.5`
+- Mildly better nav bar, switching RMM links for Popcorn.
+
 #### Nov 16 2024 - `2.0.4`
 - Fixing overflow issues for mobile users with auto-feeder, delegate button, and search inputs.
 

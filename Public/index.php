@@ -8,7 +8,7 @@
 *
 */
 
-$version = "2.0.4";
+$version = "2.0.5";
 require_once "../Sources/gears.php";
 
 // These variables are almost universal, so make sure we always have them
