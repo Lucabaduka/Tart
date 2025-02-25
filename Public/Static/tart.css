@@ -33,11 +33,6 @@
 /* Tag Overrides */
 
 html {
-  background:
-    radial-gradient(ellipse at top left, #064494 30%, #042afb2e 40%),
-    radial-gradient(ellipse at bottom left, #103b68 20%, transparent 40%),
-    radial-gradient(ellipse at top right, #00529F 20%, #248cca80 50%),
-    radial-gradient(ellipse at bottom right, #001626 20%, #00AAFD 35%);
   background-image: url(/Static/cloud_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,7 +44,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
-
 a {
   color: #00f8ff;
   -moz-transition: all 0.5s;
@@ -75,6 +69,9 @@ footer {
   text-align: center;
   text-shadow: 1px 1px 2px #0f0f0f5e;
   box-shadow: 0 -1px 2px #b1b1b10f
+}
+header {
+  background-color: #00000029;
 }
 hr {
   border: none;
@@ -181,7 +178,7 @@ pre, .content pre {
 .navbar-item, .navbar-link {
   color: #FFFFFF;
   font-size: 1.1em;
-  padding: .5em 1em .25em 1em;
+  padding-left: 1em;
 }
 .navbar-item img {
   max-height: fit-content;
@@ -295,7 +292,6 @@ p.btext {
   width: 0;
   visibility: hidden;
   position:absolute;
-
 }
 .data-display {
   -ms-overflow-style: none;
@@ -306,9 +302,6 @@ p.btext {
   color: #fdf5d5;
   background-color: #0264084a !important;
   border: 1px solid #00ff3475 !important;
-}
-header {
-  background-color: #00000029;
 }
 .tag:not(body).is-info {
   background-color: #09F;
