@@ -6,7 +6,7 @@
   <meta name="keywords" content="Endotart, NationStates endorse, NationStates endorsement, NationStates influence"/>
   <meta name="description" content="Tart.CalRef is a fast and easy web utility to help you endorse World Assembly members in your region.">
   <meta name="theme-color" content="#0099FF">
-  <meta property="og:image" content="/Static/logo.png">
+  <meta property="og:image" content="/Static/Assets/logo.png">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="/Static/tart-min.css">
   <title>Tart - <?=$title?></title>
@@ -26,7 +26,7 @@
 
         <article class="media has-text-left">
           <figure class="image is-64x64">
-            <a href="/"><img src="/Static/tart_logo.svg" alt="logo" aria-label="Return to splash page"></a>
+            <a href="/"><img src="/Static/Assets/tart_logo.svg" alt="logo" aria-label="Return to splash page"></a>
           </figure>
           <div class="media-content mb-3">
             <h1 class="title is-flex blue space">

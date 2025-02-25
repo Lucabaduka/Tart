@@ -307,7 +307,7 @@ p.btext {
   background-color: #0264084a !important;
   border: 1px solid #00ff3475 !important;
 }
-.mask {
+header {
   background-color: #00000029;
 }
 .tag:not(body).is-info {
@@ -328,7 +328,7 @@ p.btext {
   display: inline-block;
   text-transform: none;
 }
-.ico-dot::after, .ico-tart::after, .ico-eyebeast::after, .ico-search::after, .ico-rmm::after {
+.ico-dot::after, .ico-tart::after, .ico-eyebeast::after, .ico-search::after, .ico-rmm::after, .ico-popcorn:after {
   content: '';
   display: block;
   height: 1.5em;
@@ -336,18 +336,9 @@ p.btext {
   background-size: contain;
   margin-right: 0.3rem;
 }
-.ico-dot::after {
-  background-image: url("dot.svg");
-}
-.ico-tart::after {
-  background-image: url("tart.svg");
-}
-.ico-eyebeast::after {
-  background-image: url("eyebeast.svg");
-}
-.ico-search::after {
-  background-image: url("search.svg");
-}
-.ico-rmm::after {
-  background-image: url("rmm.svg");
-}
+.ico-dot:after      {background-image: url("/Static/Assets/dot.svg");}
+.ico-tart:after     {background-image: url("/Static/Assets/tart.svg");}
+.ico-eyebeast:after {background-image: url("/Static/Assets/eyebeast.svg");}
+.ico-rmm:after      {background-image: url("/Static/Assets/rmm.svg");}
+.ico-search:after   {background-image: url("/Static/Assets/search.svg");}
+.ico-popcorn:after  {background-image: url("/Static/Assets/popcorn.svg");}

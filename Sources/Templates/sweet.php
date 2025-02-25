@@ -7,7 +7,7 @@
   <meta name="description" content="Tart.CalRef is a fast and easy web utility to help you endorse World Assembly members in your region.">
   <meta name="theme-color" content="#0099FF">
   <meta id="nations_list" data-values="<?=$endos->links()?>">
-  <meta property="og:image" content="/Static/logo.png">
+  <meta property="og:image" content="/Static/Assets/logo.png">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="/Static/tart-min.css">
   <title>Tart - Sheet for <?=$nation?></title>
@@ -30,7 +30,7 @@
       <section class="is-fullhd subbox mb-4">
         <article class="media has-text-left">
           <figure class="image depth mslim is-64x64">
-              <a href="/"><img src ="/Static/tart_logo.svg" alt="logo" aria-label="Return to splash page"></a>
+              <a href="/"><img src ="/Static/Assets/tart_logo.svg" alt="logo" aria-label="Return to splash page"></a>
           </figure>
           <div class="media-content mb-2">
             <h1 class="title pl-1 m-0 is-3 blue">
