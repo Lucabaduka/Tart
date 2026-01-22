@@ -5,7 +5,6 @@
     </figure>
       <p class="media-content is-size-6 px-1">
         <span><a class="gold" href="https://calref.ca/">CalRef</a></span><span> © 2008-<?=date("Y")?></span>
-        <span> | <a class="gold" href="https://calref.ca/donate">Donate</a></span>
       </p>
   </div>
 </footer>
